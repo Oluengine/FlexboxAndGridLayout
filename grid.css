@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    display: flex;
+    margin-top: 120px;
+    height: 50vh;
+    place-content: center;  
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap: 10px;
+    width: 40%;  
+}
+
+main div{
+    text-align: center;
+    padding: 5px;
+}
+
+.itema{
+    background: orangered;
+    grid-area: a;
+    height: 30vh 
+}
+
+.itemb{
+    background: rgb(236, 145, 8);
+    grid-area: b; 
+    padding-left: 100px;
+    height: 30vh 
+}
+
+.itemc{
+    background: green;
+    grid-area: c;
+    padding-right: 150px;
+    height: 33vh
+}
+
+.itemd{
+    background: skyblue;
+    grid-area: d;
+    height: 15vh
+}
+
+.iteme{
+    background: skyblue;
+    grid-area: e;
+    height: 15vh
+}

@@ -1,0 +1,101 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+}
+
+icon-sedans{
+    color: white;
+}
+
+main{
+    margin-top: 10%;
+    margin-left: 25%;
+    display: flex;
+    width: 50%;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+
+.first{
+    background: hsl(31, 77%, 52%);
+    color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.second{
+    background: hsl(184, 100%, 22%);
+    color: white;
+    padding: 30px;  
+}
+
+.third{
+    background: hsl(179, 100%, 13%);
+    color: white;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;   
+}
+
+img{
+    display: flex; 
+    block-size: 25px;
+    margin: 1px;
+    padding-bottom: 30px;
+}
+
+.firstbutton{
+    padding: 8px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 11px;
+    color: hsl(31, 77%, 52%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.secondbutton{
+    padding: 8px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 11px;
+    color: hsl(184, 100%, 22%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.thirdbutton{
+    padding: 8px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 11px;
+    color: hsl(179, 100%, 13%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav{
+    background: red;
+    text-align: center;
+    font-size: 20px;
+    margin: 8px;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
